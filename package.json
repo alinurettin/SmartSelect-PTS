@@ -1,0 +1,15 @@
+{
+  "name": "smartselect-pts",
+  "version": "1.0.0",
+  "description": "Autonomous predictive test selection engine mapping Git AST diffs against code coverage call graphs. Selects minimum high-impact test subsets and calculates Bayesian flakiness probabilities to accelerate CI/CD execution by 70-90%.",
+  "main": "src/index.js",
+  "bin": {
+    "smart-select": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node tests/run_tests.js",
+    "start": "node src/index.js"
+  },
+  "author": "Ali Nurettin Demir (@alinurettin)",
+  "license": "MIT"
+}

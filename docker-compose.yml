@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  smartselect-pts:
+    build: .
+    ports:
+      - "7069:7069"
+    environment:
+      - PORT=7069
